@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <title>food delivery</title>
+  <style>
+    .container{
+        width:100%;
+        height:100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="www.google.com"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link color-white background-color-red" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about uss.html">about uss</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="delivery.html">delivery</a>
+            <a class="dropdown-item" href="/trackfood.html">track food</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/promo code.html"> promo code</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">DONATION</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <div class="mx-2">
+        <button class="btn btn-danger">promocode</button>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <h5> Open map to track progress</h5>
+<!--Google map-->
+<div class="container">
+<div id="map-container-google-3" class="z-depth-1-half map-container-3">
+    <iframe src="https://maps.google.com/maps?q=warsaw&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+      style="border:0" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="card-body">
+  <h6>Order ID: OD45345345435</h6>
+  <article class="card">
+      <div class="card-body row">
+          <div class="col"> <strong>Estimated Delivery time:</strong> <br>29 May 2020 </div>
+          <div class="col"> <strong>Shipping BY:</strong> <br> BLUEDART, | <i class="fa fa-phone"></i> +1598675986 </div>
+          <div class="col"> <strong>Status:</strong> <br> Picked by the courier </div>
+          <div class="col"> <strong>Tracking #:</strong> <br> BD045903594059 </div>
+      </div>
+  </article>
+  <div class="track">
+      <div class="step active"> <span class="icon"> <i class="fa fa-check"></i> </span> <span class="text">Order confirmed</span> </div>
+      <div class="step active"> <span class="icon"> <i class="fa fa-user"></i> </span> <span class="text"> Picked by courier</span> </div>
+      <div class="step"> <span class="icon"> <i class="fa fa-truck"></i> </span> <span class="text"> On the way </span> </div>
+      <div class="step"> <span class="icon"> <i class="fa fa-box"></i> </span> <span class="text">Ready for pickup</span> </div>
+  </div>
+  <hr>
+  <ul class="row">
+      <li class="col-md-4">
+          <figure class="itemside mb-3">
+              <div class="aside"><img src="2.jpg"></div>
+              <figcaption class="info align-self-center">
+                  <p class="title">BURGER<br>KAKA</p> <span class="text-muted">$9 </span>
+              </figcaption>
+          </figure>
+      </li>
+      <li class="col-md-4">
+          <figure class="itemside mb-3">
+              <div class="aside"><img src="10.jpg" class="img-sm border"></div>
+              <figcaption class="info align-self-center">
+                  <p class="title">MASALA DOAS<br> WITH ONIONS</p> <span class="text-muted">$8 </span>
+              </figcaption>
+          </figure>
+      </li>
+      <li class="col-md-4">
+          <figure class="itemside mb-3">
+              <div class="aside"><img src="4.jpg"></div>
+              <figcaption class="info align-self-center">
+                  <p class="title">CHICK <br> RAM</p> <span class="text-muted">$9 </span>
+              </figcaption>
+          </figure>
+      </li>
+  </ul>
+  <hr>
+  <a href="#" class="btn btn-warning" data-abc="true"> <i class="fa fa-chevron-left"></i> Back to orders</a>
+</div>
+
+</body>
